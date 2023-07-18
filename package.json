@@ -1,0 +1,28 @@
+{
+  "name": "@lvl0-io/snget",
+  "version": "1.0.0",
+  "description": "A utility to export & import ServiceNow records from one instance to another.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvl-io/snGet.git"
+  },
+  "keywords": [
+    "servicenow",
+    "servicenowdev",
+    "lvl0"
+  ],
+  "author": "Mike Bahr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lvl0-io/snGet/issues"
+  },
+  "homepage": "https://github.com/lvl0-io/snGet#readme",
+  "type": "module",
+  "dependencies": {
+      "dotenv": "^16.3.1"
+  }
+}

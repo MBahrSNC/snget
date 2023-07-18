@@ -1,7 +1,7 @@
 # snGet
 A utility to export &amp; import ServiceNow records from one instance to another.
 ## Setup
-1. npm i @lvl0-io/snget
+1. ```npm i @lvl0-io/snget```
 2. Rename or copy .env.example to .env
 3. Update the target and source variables as needed
 4. Run in the terminal ```node app.js```

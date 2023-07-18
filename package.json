@@ -1,6 +1,6 @@
 {
   "name": "snget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility to export & import ServiceNow records from one instance to another.",
   "main": "app.js",
   "scripts": {

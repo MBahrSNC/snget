@@ -10,6 +10,7 @@ A utility to export &amp; import ServiceNow records from one instance to another
 6. Run in the terminal ```node app.js```
 7. Enter table:  ```incident```
 8. Enter encoded query:  ```sys_id=A1234567890```
+9. Check the target instance to make sure the records have inserted or updated based on your encoded query
 
 ## Setup from NPM
 1. ```npm i snget```

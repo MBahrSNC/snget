@@ -1,6 +1,18 @@
 # snGet
 A utility to export &amp; import ServiceNow records from one instance to another.
 
+## Setup from ZIP file
+1. Download ZIP file
+2. Extract ZIP
+3. Open snget folder in VS Code
+4. ```npm i``` in integrated Terminal
+5. Rename or copy .env.example to .env
+6. Update the target and source variables as needed
+7. Run in the terminal ```node app.js```
+8. Enter table:  ```incident```
+9. Enter encoded query:  ```sys_id=A1234567890```
+10. Check the target instance to make sure the records have inserted or updated based on your encoded query
+
 ## Setup from GitHub
 1. Clone repo
 2. Browse to the repo directory in the terminal ```cd snget```

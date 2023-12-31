@@ -23,17 +23,3 @@ A utility to export &amp; import ServiceNow records from one instance to another
 7. Enter table:  ```incident```
 8. Enter encoded query:  ```sys_id=A1234567890```
 9. Check the target instance to make sure the records have inserted or updated based on your encoded query
-
-## Setup from NPM
-1. ```npm i snget```
-2. Move the snget folder out of node_modules and into the project root directory
-3. Move the node_modules folder into the snget folder
-4. Change to the snget directory in terminal
-5. Rename or copy .env.example to .env
-6. Update the target and source variables as needed
-7. Run in the terminal ```node app.js```
-8. Enter table:  ```incident``` 
-9. Enter encoded query:  ```sys_id=A1234567890```
-10. Check the target instance to make sure the records have inserted or updated based on your encoded query
-
-_This is temporary until I publish a better solution for NPM_
